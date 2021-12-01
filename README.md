@@ -1,5 +1,5 @@
 # Overview
-# Crochet_Counter
+# Crochet Counter
 {Provide a description the software that you wrote.}
 A watch app that helps crocheters keep track of what row they are on.
 
@@ -12,8 +12,10 @@ A watch app that helps crocheters keep track of what row they are on.
 # Development Environment
 
 {Describe the tools that you used to develop the software}
+I used Android Studio and the Watch emulator to develop this software.
 
 {Describe the programming language that you used and any libraries.}
+This app was created with Kotlin.
 
 # Useful Websites
 
@@ -24,6 +26,6 @@ A watch app that helps crocheters keep track of what row they are on.
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Count the stitches in a row using the pedometer
+* Adding a sitch counter
+* Adding more colors to the style
