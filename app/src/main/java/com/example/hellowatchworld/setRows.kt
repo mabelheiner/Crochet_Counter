@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 import com.example.hellowatchworld.databinding.ActivityMainBinding
 
+//sets the total rows of the project
 class setRows : Activity() {
     private lateinit var binding: ActivityMainBinding
 
@@ -16,8 +17,8 @@ class setRows : Activity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(R.layout.input)
 
-        var set_row = findViewById<Button>(R.id.set_row)
-        var row = findViewById<EditText>(R.id.total_rows).text
+        val set_row = findViewById<Button>(R.id.set_row)
+        val row = findViewById<EditText>(R.id.total_rows).text
 
         set_row.setOnClickListener {
             Singleton.total_rows = row.toString().toInt()

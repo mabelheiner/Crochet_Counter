@@ -42,10 +42,13 @@ class MainActivity : Activity() {
 
     }
 
+    //displays the row number to the screen
     private fun displayRow() {
         binding.rowNumber.text = row.toString()
     }
 
+    //checks if the user is 25, 50, 75, or 100 percent done
+    //and calls the correct display
     private fun checkRow() {
 
             if (row == (total_rows?.plus(1))) {

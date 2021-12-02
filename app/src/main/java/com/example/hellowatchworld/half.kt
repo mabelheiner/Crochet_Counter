@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.TextView
 import com.example.hellowatchworld.databinding.ActivityMainBinding
 
+//display for the user when they are 50 percent done
 class half : Activity() {
     private lateinit var binding: ActivityMainBinding
 
@@ -15,7 +16,7 @@ class half : Activity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(R.layout.half)
 
-        var home = findViewById<TextView>(R.id.half)
+        val home = findViewById<TextView>(R.id.half)
 
         home.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
