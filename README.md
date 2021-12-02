@@ -6,7 +6,7 @@ and done with the project that they are working on.
 I personally love to crochet and it is very hard to keep track of what row I am on. Oftentimes, when I use
 row counters, they fall out and are just incovenient. I wanted to create an app that would keep track of this for me.
 
-[Software Demo Video](https://youtu.be/euZCboBBVAI)
+[Software Demo Video](https://youtu.be/ZWMEjKbe85g)
 
 # Development Environment
 I used Android Studio and the Watch emulator to develop this software.
