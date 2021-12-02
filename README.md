@@ -6,8 +6,6 @@ and done with the project that they are working on.
 I personally love to crochet and it is very hard to keep track of what row I am on. Oftentimes, when I use
 row counters, they fall out and are just incovenient. I wanted to create an app that would keep track of this for me.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.}
-
 [Software Demo Video](https://youtu.be/euZCboBBVAI)
 
 # Development Environment
